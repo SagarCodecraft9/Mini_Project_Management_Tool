@@ -9,7 +9,7 @@ const app = express();
 const PORT = 5000;
 require('dotenv').config();
 
-const JWT_SECRET = process.env.JWT_SECRET || '2968bca35ffd898c4fdfcbf96f762ffac563e4c0f19f83e59a0395eb05ff7266'; // Use environment variable or fallback
+const JWT_SECRET = process.env.JWT_SECRET || 'Your JWT Auth Secret Key'; // Use JWT Secret Key
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 const pool = mysql.createPool({
   host: 'localhost',
   user: 'root',
-  password: 'Sagarpalli123@#', // MySQL Password
+  password: '****************', // MySQL Password
   database: 'mini_project_db',
   waitForConnections: true,
   connectionLimit: 10,
