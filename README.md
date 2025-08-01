@@ -10,7 +10,7 @@ Backend: Node.js, Express.js
 
 Authentication: JWT-based secure login system
 
-Database: MongoDB (or JSON for demo/local)
+Database: MySQL (Workbench) (or JSON for demo/local)
 
 Version Control: Git & GitHub
 
