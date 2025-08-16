@@ -30,6 +30,20 @@ Version Control: Git & GitHub
 
 📱 Responsive UI with reusable components
 
+CRUD Operations:
+
+POST /signup User registration
+
+POST /login User login, returns JWT token
+
+GET /tasks - Get tasks for authenticated user (requires Authorization header with Bearer token)
+
+POST /tasks - Add new task (requires Authorization header)
+
+PUT /tasks/: id - Update task by ID (requires Authorization header)
+
+DELETE /tasks/: id - Delete task by ID (requires Authorization header)
+
 
 
 📁 Folder Structure
